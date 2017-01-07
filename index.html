@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="instructure">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <!-- rest window size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Instructure Clone</title>
+    <!-- style sheets -->
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/landing.css" rel="stylesheet">
+  </head>
+  <body ng-controller="mainCtrl">
+    <p>hello to everyone!</p>
+    {{test}}
+    <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/landingCrtl.js"></script>
+    <script src="controllers/mainCtrl.js"></script>
+  </body>
+</html>
