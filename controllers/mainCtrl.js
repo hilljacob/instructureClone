@@ -1,5 +1,5 @@
 angular.module('instructure').controller('mainCtrl', function($scope){
 
-      $scope.test = 'Jake is Awesome';
+      // $scope.test = 'Jake is Awesome';
 
 })

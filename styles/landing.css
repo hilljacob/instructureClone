@@ -1,0 +1,183 @@
+/*this is the wrapper for the whole page*/
+.instructure {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /*background: blue;*/
+}
+/*this is where the nav bar begins~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+nav {
+  position: fixed;
+  top: 0;
+  height: 105px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 4px -2px rgba(0,0,0,.05), 0 0 20px rgba(0,0,0,.05);
+  background-color: rgba(255,255,255,.93);
+  transition: all .5s ease 0s;
+}
+.linkHolder{
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background: yellow;*/
+}
+/*this is the sizing of the main logo*/
+.instLogo{
+  height: 22.4px;
+  width: 198px;
+}
+/*this is where you find the link text*/
+.navH1{
+  color: #6e6e6e;
+  text-decoration: none;
+  /*padding: 0 10px;*/
+  font-family: "din light",Arial,sans-serif;
+  font-size: 21px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+.navH1:hover{
+  color: #57c8e7;
+  cursor: pointer;
+}
+/*the main content starts here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.mainContent{
+  width: 100vw;
+  margin-top: 135px;
+  /*background: yellow;*/
+  display: flex;
+  justify-content: center;
+}
+/*the mainTop content starts here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.mainTop{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainTopH1{
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-size: 47px;
+  line-height: 1!important;
+  color: #6e6e6e;
+  font-family: "proxima nova thin",arial,sans-serif;
+}
+.keyWord{
+  width: 190px;
+  display: inline-block;
+  border-bottom: 3px solid #6e6e6e;
+  font-size: 30px;
+  color: #57c8e7;
+}
+.itemHolder{
+  height: 445px;
+  width: 100%;
+  background-image: url('https://www.instructure.com/img/home-header-blank.png');
+  background-position: center bottom;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.school{
+  width: 280px;
+  height: 221px;
+  background-image: url('https://www.instructure.com/img/HIED.png');
+}
+.school:hover{
+  background-image: url('https://www.instructure.com/img/HIED-hover.png');
+  cursor: pointer;
+}
+.house{
+  width: 116px;
+  height: 169px;
+  background-image: url('https://www.instructure.com/img/house.png');
+}
+.house:hover{
+  background-image: url('https://www.instructure.com/img/house-hover.png');
+  cursor: pointer;
+}
+.smallBiz{
+  width: 109px;
+  height: 203px;
+  background-image: url('https://www.instructure.com/img/SM-business.png');
+}
+.smallBiz:hover{
+  background-image: url('https://www.instructure.com/img/SM-business-hover.png');
+  cursor: pointer;
+}
+.officeBuild{
+  width: 172px;
+  height: 297px;
+  background-image: url('https://www.instructure.com/img/ENT.png');
+}
+.officeBuild:hover{
+  background-image: url('https://www.instructure.com/img/Corp-hover.png');
+  cursor: pointer;
+}
+.Rocket{
+  width: 156px;
+  height: 239px;
+  background-image: url('https://www.instructure.com/img/rocket.png');
+}
+/*.Rocket:hover{
+  background-image: url('https://www.instructure.com/img/rocket-hover.png');
+  cursor: pointer;
+}*/
+.Rocket:hover {
+  background-image: url('https://www.instructure.com/img/rocket-hover.png');
+  cursor: pointer;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.buildings{
+  margin: 0 15px 155px 15px;
+}
+#flyAway{
+  transition: all 400ms linear;
+}
+.boxText{
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+  font-size: 16px;
+  color: #6e6e6e;
+  font-family: "proxima nova light",arial,sans-serif;
+  line-height: 1.25;
+}
+/*the middleBar content starts here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.middleBar{
+
+}
+/*the mainBottom content starts here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.mainBottom{
+
+}
