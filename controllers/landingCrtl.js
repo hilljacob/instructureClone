@@ -1,6 +1,6 @@
 angular.module('instructure').controller('landingCtrl', function($scope, landingService,$interval){
 
-      $(".movingBar").css({"left": "671px"});
+      $(".movingBar").css({"margin-left": "153px"});
       $(".movingBar").css({"width": "75px"});
 
       $scope.keyWord = landingService.getWord();
@@ -17,38 +17,38 @@ angular.module('instructure').controller('landingCtrl', function($scope, landing
         });
         // the career button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         $("#career").mouseover(function(){
-          $(".movingBar").css({"left": "172px"});
+          $(".movingBar").css({"margin-left": "-850px"});
           $(".movingBar").css({"width": "75px"});
         });
         $("#career").mouseout(function(){
-          $(".movingBar").css({"left": "671px"});
+          $(".movingBar").css({"margin-left": "153px"});
           $(".movingBar").css({"width": "75px"});
         });
         // the Blog button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         $("#blog").mouseover(function(){
-          $(".movingBar").css({"left": "286px"});
+          $(".movingBar").css({"margin-left": "-650px"});
           $(".movingBar").css({"width": "44px"});
         });
         $("#blog").mouseout(function(){
-          $(".movingBar").css({"left": "671px"});
+          $(".movingBar").css({"margin-left": "153px"});
           $(".movingBar").css({"width": "75px"});
         });
         // the Press button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         $("#press").mouseover(function(){
-          $(".movingBar").css({"left": "369px"});
+          $(".movingBar").css({"margin-left": "-400px"});
           $(".movingBar").css({"width": "137px"});
         });
         $("#press").mouseout(function(){
-          $(".movingBar").css({"left": "671px"});
+          $(".movingBar").css({"margin-left": "153px"});
           $(".movingBar").css({"width": "75px"});
         });
         // the Investor button ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         $("#investor").mouseover(function(){
-          $(".movingBar").css({"left": "545px"});
+          $(".movingBar").css({"margin-left": "-100px"});
           $(".movingBar").css({"width": "87px"});
         });
         $("#investor").mouseout(function(){
-          $(".movingBar").css({"left": "671px"});
+          $(".movingBar").css({"margin-left": "153px"});
           $(".movingBar").css({"width": "75px"});
         });
 
